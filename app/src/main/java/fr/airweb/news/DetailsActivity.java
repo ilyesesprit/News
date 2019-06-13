@@ -56,6 +56,7 @@ public class DetailsActivity extends AppCompatActivity {
             //Setting text view title
            titletxt.setText(Html.fromHtml(news.getTitle()));
            contenttxt.setText(Html.fromHtml(news.getContent()));
+           
         }
 
     }
